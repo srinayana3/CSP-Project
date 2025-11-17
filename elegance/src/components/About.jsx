@@ -1,5 +1,4 @@
 import React from 'react';
-// Add this image to src/assets/
 import AboutImg from '../assets/hero-image.jpg';
 
 function AboutSection() {

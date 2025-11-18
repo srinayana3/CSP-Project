@@ -8,15 +8,15 @@ function ShowroomInfo() {
         <h3>Visit Our Showroom</h3>
         <div className="info-item">
           <strong>Location</strong>
-          <p>123 Design District Avenue<br />San Francisco, CA 94103</p>
+          <p>123 Design District Avenue<br />Bhilai, 440012</p>
         </div>
         <div className="info-item">
           <strong>Phone</strong>
-          <p>(415) 555-0123</p>
+          <p>(91+)99001-88001</p>
         </div>
         <div className="info-item">
           <strong>Email</strong>
-          <p>hello@artisanhome.com</p>
+          <p>elegance@gmail.com</p>
         </div>
         <div className="info-item">
           <strong>Hours</strong>

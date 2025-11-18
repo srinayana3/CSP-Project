@@ -1,12 +1,22 @@
-
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import './App.css'; // Import our styles
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import ContactPage from './pages/ContactPage';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+     <Navbar />
+     <main>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </main>
+      <Footer />
     </div>
   );
 }

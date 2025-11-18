@@ -17,7 +17,7 @@ function ContactForm() {
         </div>
         <div className="form-group">
           <label htmlFor="phone">Phone</label>
-          <input type="tel" id="phone" placeholder="(555) 123-4567" />
+          <input type="tel" id="phone" placeholder="(91+) 1234 567890" />
         </div>
         <div className="form-group">
           <label htmlFor="message">Message *</label>

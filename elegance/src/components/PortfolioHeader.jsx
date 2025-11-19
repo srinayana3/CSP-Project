@@ -1,4 +1,5 @@
 import React from 'react';
+import HeroImage from '../assets/hero-image.jpg'; 
 
 function PortfolioHeader() {
   return (

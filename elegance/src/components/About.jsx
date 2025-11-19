@@ -10,7 +10,7 @@ function AboutSection() {
         </div>
         <div className="about-content">
           <h2>Crafted with Purpose, Designed for Life</h2>
-          <p>At Elegance,furniture should be more than functional, should tell a story. Each piece in our collection is thoughtfully selected or custom-designed to bring warmth, character, and sophistication to your space.</p>
+          <p>At Elegance,furniture should be more than functional, it should tell a story. Each piece in our collection is thoughtfully selected or custom-designed to bring warmth, character, and sophistication to your space.</p>
           <p>From sustainable materials to timeless aesthetics, we're committed to creating interiors that feel authentically yours. Whether you're furnishing a single room or transforming your entire home, our team is here to guide you every step of the way.</p>
           <a href="/about" className="btn btn-secondary-outline">Learn More About Us &rarr;</a>
         </div>

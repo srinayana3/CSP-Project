@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 require('dotenv').config(); 
 
 const Contact = require('./models/ContactModel'); 
-const Portfolio = require('./models/PortfolioModel'); 
 
 const app = express();
 const PORT = 5000;
@@ -35,16 +34,6 @@ app.post('/api/contact', async (req, res) => {
     res.status(200).json({ success: true, message: 'Message received and saved successfully!' });
   } catch (error) {
     res.status(500).json({ success: false, message: 'Server error: Failed to save message.' });
-  }
-});
-
-app.get('/api/portfolio', async (req, res) => {
-  try {
-    const projects = await Portfolio.find().sort({ projectDate: -1 });
-    
-    res.status(200).json(projects);
-  } catch (error) {
-    res.status(500).json({ success: false, message: 'Server error: Failed to retrieve portfolio.' });
   }
 });
 

@@ -1,5 +1,6 @@
 import React from 'react';
-import HeroImage from '../assets/hero-image.jpg'; 
+import { Link } from "react-router-dom"; 
+import HeroImage from '../assets/hero-image1.jpg'; 
 
 function Hero() {
   return (
@@ -8,8 +9,8 @@ function Hero() {
         <h1>Curated Furniture for Modern Living</h1>
         <p>Transform your space with timeless pieces crafted for beauty, comfort, and lasting quality</p>
         <div className="hero-buttons">
-          <a href="/collections" className="btn btn-primary">Explore Collections &rarr;</a>
-          <a href="/consultation" className="btn btn-secondary">Schedule Consultation</a>
+          <a href="/portfolio" className="btn btn-primary">Explore Collections &rarr;</a>
+          <a href="/contact" className="btn btn-secondary">Schedule Consultation</a>
         </div>
       </div>
     </header>
